@@ -1,0 +1,24 @@
+[2019-06-22 11:00:25,027] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: second_workflow.branch_task 2019-06-22T08:00:00+00:00 [queued]>
+[2019-06-22 11:00:25,033] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: second_workflow.branch_task 2019-06-22T08:00:00+00:00 [queued]>
+[2019-06-22 11:00:25,033] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-22 11:00:25,033] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-06-22 11:00:25,033] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-22 11:00:25,038] {__init__.py:1374} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2019-06-22T08:00:00+00:00
+[2019-06-22 11:00:25,038] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'second_workflow', 'branch_task', '2019-06-22T08:00:00+00:00', '--job_id', '52', '--raw', '-sd', 'DAGS_FOLDER/second_workflow.py', '--cfg_path', '/var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T/tmpfjorv2ss']
+[2019-06-22 11:00:25,478] {base_task_runner.py:101} INFO - Job 52: Subtask branch_task /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /Users/martin/airflow/airflow.cfg and /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-06-22 11:00:25,479] {base_task_runner.py:101} INFO - Job 52: Subtask branch_task   category=DeprecationWarning,
+[2019-06-22 11:00:25,678] {base_task_runner.py:101} INFO - Job 52: Subtask branch_task [2019-06-22 11:00:25,678] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-06-22 11:00:25,899] {base_task_runner.py:101} INFO - Job 52: Subtask branch_task [2019-06-22 11:00:25,899] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/second_workflow.py
+[2019-06-22 11:00:25,916] {base_task_runner.py:101} INFO - Job 52: Subtask branch_task [2019-06-22 11:00:25,916] {cli.py:517} INFO - Running <TaskInstance: second_workflow.branch_task 2019-06-22T08:00:00+00:00 [running]> on host macbook-wm.local
+[2019-06-22 11:00:25,927] {python_operator.py:104} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=second_workflow
+AIRFLOW_CTX_TASK_ID=branch_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-22T08:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-22T08:00:00+00:00
+[2019-06-22 11:00:25,930] {python_operator.py:113} INFO - Done. Returned value was: weekend_task
+[2019-06-22 11:00:25,930] {python_operator.py:143} INFO - Following branch ['weekend_task']
+[2019-06-22 11:00:25,930] {python_operator.py:144} INFO - Marking other directly downstream tasks as skipped
+[2019-06-22 11:00:25,933] {python_operator.py:163} INFO - Done.
+[2019-06-22 11:00:30,031] {logging_mixin.py:95} INFO - [2019-06-22 11:00:30,030] {jobs.py:2562} INFO - Task exited with return code 0

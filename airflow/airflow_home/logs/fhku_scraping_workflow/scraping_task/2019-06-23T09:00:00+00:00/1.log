@@ -1,0 +1,112 @@
+[2019-06-23 12:03:45,034] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-23T09:00:00+00:00 [queued]>
+[2019-06-23 12:03:45,040] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-23T09:00:00+00:00 [queued]>
+[2019-06-23 12:03:45,040] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-23 12:03:45,040] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-06-23 12:03:45,040] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-23 12:03:45,045] {__init__.py:1374} INFO - Executing <Task(BashOperator): scraping_task> on 2019-06-23T09:00:00+00:00
+[2019-06-23 12:03:45,046] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'fhku_scraping_workflow', 'scraping_task', '2019-06-23T09:00:00+00:00', '--job_id', '80', '--raw', '-sd', 'DAGS_FOLDER/fhku_scraper.py', '--cfg_path', '/var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T/tmp_2q0ra9k']
+[2019-06-23 12:03:45,553] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /Users/martin/airflow/airflow.cfg and /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-06-23 12:03:45,553] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   category=DeprecationWarning,
+[2019-06-23 12:03:45,767] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task [2019-06-23 12:03:45,766] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-06-23 12:03:46,010] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task [2019-06-23 12:03:46,010] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:46,027] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task [2019-06-23 12:03:46,026] {cli.py:517} INFO - Running <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-23T09:00:00+00:00 [running]> on host 6.0.0.10.in-addr.arpa
+[2019-06-23 12:03:46,040] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T
+[2019-06-23 12:03:46,040] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=fhku_scraping_workflow
+AIRFLOW_CTX_TASK_ID=scraping_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-23T09:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-23T09:00:00+00:00
+[2019-06-23 12:03:46,041] {bash_operator.py:104} INFO - Temporary script location: /var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T/airflowtmpw6g7haxh/scraping_task3vu7fb79
+[2019-06-23 12:03:46,041] {bash_operator.py:114} INFO - Running command: python3 /Users/martin/dev1/fh/FH/MSc/03_sew/scrapping/main.py
+[2019-06-23 12:03:46,049] {bash_operator.py:123} INFO - Output:
+[2019-06-23 12:04:14,783] {logging_mixin.py:95} INFO - [2019-06-23 12:04:14,783] {jobs.py:2615} WARNING - The recorded hostname 6.0.0.10.in-addr.arpa does not match this instance's hostname macbook-wm
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connection.py", line 159, in _new_conn
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -     (self._dns_host, self.port), self.timeout, **extra_kw)
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/util/connection.py", line 57, in create_connection
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 748, in getaddrinfo
+[2019-06-23 12:04:14,794] {bash_operator.py:127} INFO -     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO - socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO - During handling of the above exception, another exception occurred:
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -     chunked=chunked)
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -     self._validate_conn(conn)
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 839, in _validate_conn
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -     conn.connect()
+[2019-06-23 12:04:14,795] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connection.py", line 301, in connect
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -     conn = self._new_conn()
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connection.py", line 168, in _new_conn
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -     self, "Failed to establish a new connection: %s" % e)
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO - urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10a9266d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO - During handling of the above exception, another exception occurred:
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -     timeout=timeout
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+[2019-06-23 12:04:14,796] {bash_operator.py:127} INFO -     _stacktrace=sys.exc_info()[2])
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO - urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.fh-kufstein.ac.at', port=443): Max retries exceeded with url: /ger/Veranstaltungen (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10a9266d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO - During handling of the above exception, another exception occurred:
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO - 
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -   File "/Users/martin/dev1/fh/FH/MSc/03_sew/scrapping/main.py", line 14, in <module>
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -     events = get_latest_events()
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -   File "/Users/martin/dev1/fh/FH/MSc/03_sew/scrapping/events_crawler.py", line 26, in get_latest_events
+[2019-06-23 12:04:14,797] {bash_operator.py:127} INFO -     response = requests.get(url)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 75, in get
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -     return request('get', url, params=params, **kwargs)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 60, in request
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -     return session.request(method=method, url=url, **kwargs)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -     resp = self.send(prep, **send_kwargs)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -     r = adapter.send(request, **kwargs)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO -     raise ConnectionError(e, request=request)
+[2019-06-23 12:04:14,798] {bash_operator.py:127} INFO - requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.fh-kufstein.ac.at', port=443): Max retries exceeded with url: /ger/Veranstaltungen (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10a9266d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+[2019-06-23 12:04:14,799] {helpers.py:281} INFO - Sending Signals.SIGTERM to GPID 44803
+[2019-06-23 12:04:14,799] {__init__.py:1416} ERROR - Received SIGTERM. Terminating subprocesses.
+[2019-06-23 12:04:14,799] {bash_operator.py:141} INFO - Sending SIGTERM signal to bash process group
+[2019-06-23 12:04:14,808] {__init__.py:1580} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 125, in execute
+    for line in iter(sp.stdout.readline, b''):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1418, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2019-06-23 12:04:14,811] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-06-23 12:04:14,842] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task Traceback (most recent call last):
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/bin/airflow", line 32, in <module>
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     args.func(args)
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     return f(*args, **kwargs)
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     _run(args, dag, ti)
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     pool=args.pool,
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     return func(*args, **kwargs)
+[2019-06-23 12:04:14,843] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     result = task_copy.execute(context=context)
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 125, in execute
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     for line in iter(sp.stdout.readline, b''):
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1418, in signal_handler
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task     raise AirflowException("Task received SIGTERM signal")
+[2019-06-23 12:04:14,844] {base_task_runner.py:101} INFO - Job 80: Subtask scraping_task airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2019-06-23 12:04:14,940] {helpers.py:263} INFO - Process psutil.Process(pid=44804, status='terminated') (44804) terminated with exit code None
+[2019-06-23 12:04:14,998] {helpers.py:263} INFO - Process psutil.Process(pid=44803, status='terminated') (44803) terminated with exit code 1
+[2019-06-23 12:04:14,998] {helpers.py:263} INFO - Process psutil.Process(pid=44805, status='terminated') (44805) terminated with exit code None

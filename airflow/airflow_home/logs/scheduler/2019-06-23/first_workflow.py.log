@@ -1,0 +1,275 @@
+[2019-06-23 12:03:05,876] {jobs.py:398} INFO - Started process (PID=44731) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:06,079] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:03:06,080] {logging_mixin.py:95} INFO - [2019-06-23 12:03:06,079] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:06,090] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:06,105] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.229 seconds
+[2019-06-23 12:03:43,978] {jobs.py:398} INFO - Started process (PID=44801) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:43,989] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:03:43,990] {logging_mixin.py:95} INFO - [2019-06-23 12:03:43,990] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:44,001] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:03:44,020] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.042 seconds
+[2019-06-23 12:04:20,200] {jobs.py:398} INFO - Started process (PID=44823) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:20,206] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:20,207] {logging_mixin.py:95} INFO - [2019-06-23 12:04:20,207] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:20,217] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:20,236] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.037 seconds
+[2019-06-23 12:04:26,224] {jobs.py:398} INFO - Started process (PID=44829) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:26,231] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:26,232] {logging_mixin.py:95} INFO - [2019-06-23 12:04:26,231] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:26,242] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:26,259] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:04:32,240] {jobs.py:398} INFO - Started process (PID=44832) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:32,247] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:32,248] {logging_mixin.py:95} INFO - [2019-06-23 12:04:32,248] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:32,260] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:32,280] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.041 seconds
+[2019-06-23 12:04:38,271] {jobs.py:398} INFO - Started process (PID=44836) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:38,278] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:38,280] {logging_mixin.py:95} INFO - [2019-06-23 12:04:38,278] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:38,288] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:38,309] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.038 seconds
+[2019-06-23 12:04:44,284] {jobs.py:398} INFO - Started process (PID=44839) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:44,291] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:44,293] {logging_mixin.py:95} INFO - [2019-06-23 12:04:44,292] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:44,301] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:44,319] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:04:50,309] {jobs.py:398} INFO - Started process (PID=44843) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:50,317] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:50,318] {logging_mixin.py:95} INFO - [2019-06-23 12:04:50,318] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:50,327] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:50,343] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:04:56,332] {jobs.py:398} INFO - Started process (PID=44846) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:56,339] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:04:56,340] {logging_mixin.py:95} INFO - [2019-06-23 12:04:56,339] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:56,349] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:04:56,365] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.033 seconds
+[2019-06-23 12:05:02,352] {jobs.py:398} INFO - Started process (PID=44849) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:02,359] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:02,360] {logging_mixin.py:95} INFO - [2019-06-23 12:05:02,359] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:02,369] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:02,386] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.034 seconds
+[2019-06-23 12:05:08,372] {jobs.py:398} INFO - Started process (PID=44853) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:08,379] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:08,380] {logging_mixin.py:95} INFO - [2019-06-23 12:05:08,380] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:08,390] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:08,407] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:05:14,391] {jobs.py:398} INFO - Started process (PID=44856) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:14,398] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:14,399] {logging_mixin.py:95} INFO - [2019-06-23 12:05:14,398] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:14,409] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:14,425] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.034 seconds
+[2019-06-23 12:05:20,414] {jobs.py:398} INFO - Started process (PID=44859) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:20,420] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:20,421] {logging_mixin.py:95} INFO - [2019-06-23 12:05:20,421] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:20,431] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:20,450] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.036 seconds
+[2019-06-23 12:05:26,447] {jobs.py:398} INFO - Started process (PID=44862) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:26,454] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:26,455] {logging_mixin.py:95} INFO - [2019-06-23 12:05:26,454] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:26,464] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:26,484] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.037 seconds
+[2019-06-23 12:05:32,455] {jobs.py:398} INFO - Started process (PID=44865) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:32,462] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:32,463] {logging_mixin.py:95} INFO - [2019-06-23 12:05:32,462] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:32,473] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:32,493] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.038 seconds
+[2019-06-23 12:05:38,478] {jobs.py:398} INFO - Started process (PID=44869) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:38,485] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:38,487] {logging_mixin.py:95} INFO - [2019-06-23 12:05:38,486] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:38,496] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:38,513] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.034 seconds
+[2019-06-23 12:05:44,498] {jobs.py:398} INFO - Started process (PID=44872) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:44,504] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:44,506] {logging_mixin.py:95} INFO - [2019-06-23 12:05:44,505] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:44,515] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:44,532] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:05:50,521] {jobs.py:398} INFO - Started process (PID=44876) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:50,529] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:50,529] {logging_mixin.py:95} INFO - [2019-06-23 12:05:50,529] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:50,538] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:50,556] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:05:56,554] {jobs.py:398} INFO - Started process (PID=44879) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:56,561] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:05:56,562] {logging_mixin.py:95} INFO - [2019-06-23 12:05:56,562] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:56,572] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:05:56,590] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:06:02,563] {jobs.py:398} INFO - Started process (PID=44882) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:02,569] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:02,570] {logging_mixin.py:95} INFO - [2019-06-23 12:06:02,570] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:02,580] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:02,597] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.034 seconds
+[2019-06-23 12:06:08,590] {jobs.py:398} INFO - Started process (PID=44886) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:08,597] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:08,598] {logging_mixin.py:95} INFO - [2019-06-23 12:06:08,597] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:08,608] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:08,625] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.036 seconds
+[2019-06-23 12:06:14,611] {jobs.py:398} INFO - Started process (PID=44889) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:14,618] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:14,619] {logging_mixin.py:95} INFO - [2019-06-23 12:06:14,619] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:14,629] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:14,648] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.037 seconds
+[2019-06-23 12:06:20,636] {jobs.py:398} INFO - Started process (PID=44892) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:20,643] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:20,644] {logging_mixin.py:95} INFO - [2019-06-23 12:06:20,644] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:20,655] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:20,672] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.036 seconds
+[2019-06-23 12:06:26,664] {jobs.py:398} INFO - Started process (PID=44895) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:26,670] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:26,671] {logging_mixin.py:95} INFO - [2019-06-23 12:06:26,671] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:26,681] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:26,698] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:06:32,677] {jobs.py:398} INFO - Started process (PID=44898) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:32,684] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:32,685] {logging_mixin.py:95} INFO - [2019-06-23 12:06:32,685] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:32,695] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:32,711] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.035 seconds
+[2019-06-23 12:06:38,697] {jobs.py:398} INFO - Started process (PID=44903) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:38,712] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:38,715] {logging_mixin.py:95} INFO - [2019-06-23 12:06:38,713] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:38,724] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:38,741] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.044 seconds
+[2019-06-23 12:06:44,720] {jobs.py:398} INFO - Started process (PID=44920) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:44,731] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:44,733] {logging_mixin.py:95} INFO - [2019-06-23 12:06:44,732] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:44,742] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:44,760] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.039 seconds
+[2019-06-23 12:06:50,738] {jobs.py:398} INFO - Started process (PID=44924) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:50,752] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:50,753] {logging_mixin.py:95} INFO - [2019-06-23 12:06:50,753] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:50,762] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:50,778] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.040 seconds
+[2019-06-23 12:06:56,760] {jobs.py:398} INFO - Started process (PID=44927) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:56,772] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:06:56,773] {logging_mixin.py:95} INFO - [2019-06-23 12:06:56,772] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:56,784] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:06:56,803] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.043 seconds
+[2019-06-23 12:07:02,774] {jobs.py:398} INFO - Started process (PID=44930) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:02,785] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:02,786] {logging_mixin.py:95} INFO - [2019-06-23 12:07:02,785] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:02,795] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:02,813] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.039 seconds
+[2019-06-23 12:07:08,792] {jobs.py:398} INFO - Started process (PID=44934) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:08,804] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:08,805] {logging_mixin.py:95} INFO - [2019-06-23 12:07:08,805] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:08,817] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:08,835] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.043 seconds
+[2019-06-23 12:07:14,806] {jobs.py:398} INFO - Started process (PID=44941) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:14,818] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:14,818] {logging_mixin.py:95} INFO - [2019-06-23 12:07:14,818] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:14,830] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:14,849] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.043 seconds
+[2019-06-23 12:07:20,820] {jobs.py:398} INFO - Started process (PID=44944) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:20,830] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:20,831] {logging_mixin.py:95} INFO - [2019-06-23 12:07:20,831] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:20,842] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:20,860] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.040 seconds
+[2019-06-23 12:07:26,835] {jobs.py:398} INFO - Started process (PID=44947) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:26,859] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:26,860] {logging_mixin.py:95} INFO - [2019-06-23 12:07:26,860] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:26,872] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:26,891] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.056 seconds
+[2019-06-23 12:07:32,839] {jobs.py:398} INFO - Started process (PID=44950) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:32,850] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:32,851] {logging_mixin.py:95} INFO - [2019-06-23 12:07:32,851] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:32,862] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:32,881] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.042 seconds
+[2019-06-23 12:07:38,846] {jobs.py:398} INFO - Started process (PID=44953) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:38,857] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:38,859] {logging_mixin.py:95} INFO - [2019-06-23 12:07:38,857] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:38,868] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:38,887] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.041 seconds
+[2019-06-23 12:07:44,861] {jobs.py:398} INFO - Started process (PID=44957) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:44,872] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:44,874] {logging_mixin.py:95} INFO - [2019-06-23 12:07:44,873] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:44,884] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:44,902] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.041 seconds
+[2019-06-23 12:07:50,876] {jobs.py:398} INFO - Started process (PID=44961) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:50,889] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:50,890] {logging_mixin.py:95} INFO - [2019-06-23 12:07:50,890] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:50,899] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:50,920] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.045 seconds
+[2019-06-23 12:07:56,904] {jobs.py:398} INFO - Started process (PID=44967) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:56,925] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:07:56,926] {logging_mixin.py:95} INFO - [2019-06-23 12:07:56,926] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:56,937] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:07:56,957] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.053 seconds
+[2019-06-23 12:08:02,923] {jobs.py:398} INFO - Started process (PID=44970) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:02,934] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:02,935] {logging_mixin.py:95} INFO - [2019-06-23 12:08:02,935] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:02,947] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:02,965] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.042 seconds
+[2019-06-23 12:08:08,936] {jobs.py:398} INFO - Started process (PID=44973) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:08,948] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:08,949] {logging_mixin.py:95} INFO - [2019-06-23 12:08:08,949] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:08,961] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:08,979] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.043 seconds
+[2019-06-23 12:08:14,959] {jobs.py:398} INFO - Started process (PID=44977) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:14,975] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:14,976] {logging_mixin.py:95} INFO - [2019-06-23 12:08:14,976] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:14,996] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:15,028] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.070 seconds
+[2019-06-23 12:08:20,976] {jobs.py:398} INFO - Started process (PID=44980) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:20,986] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:20,988] {logging_mixin.py:95} INFO - [2019-06-23 12:08:20,987] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:20,998] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:21,019] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.043 seconds
+[2019-06-23 12:08:27,010] {jobs.py:398} INFO - Started process (PID=44983) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:27,022] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:27,023] {logging_mixin.py:95} INFO - [2019-06-23 12:08:27,023] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:27,034] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:27,051] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.041 seconds
+[2019-06-23 12:08:33,020] {jobs.py:398} INFO - Started process (PID=44986) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:33,031] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:33,031] {logging_mixin.py:95} INFO - [2019-06-23 12:08:33,031] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:33,042] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:33,062] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.042 seconds
+[2019-06-23 12:08:39,034] {jobs.py:398} INFO - Started process (PID=44990) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:39,046] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:39,047] {logging_mixin.py:95} INFO - [2019-06-23 12:08:39,046] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:39,056] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:39,076] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.042 seconds
+[2019-06-23 12:08:45,046] {jobs.py:398} INFO - Started process (PID=44994) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:45,066] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:45,068] {logging_mixin.py:95} INFO - [2019-06-23 12:08:45,067] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:45,079] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:45,100] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.054 seconds
+[2019-06-23 12:08:51,064] {jobs.py:398} INFO - Started process (PID=44997) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:51,076] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:51,077] {logging_mixin.py:95} INFO - [2019-06-23 12:08:51,076] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:51,089] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:51,110] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.046 seconds
+[2019-06-23 12:08:57,086] {jobs.py:398} INFO - Started process (PID=45004) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:57,098] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:08:57,099] {logging_mixin.py:95} INFO - [2019-06-23 12:08:57,098] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:57,110] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:08:57,130] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.044 seconds
+[2019-06-23 12:09:03,100] {jobs.py:398} INFO - Started process (PID=45010) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:03,111] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:03,112] {logging_mixin.py:95} INFO - [2019-06-23 12:09:03,112] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:03,124] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:03,144] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.044 seconds
+[2019-06-23 12:09:09,119] {jobs.py:398} INFO - Started process (PID=45014) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:09,130] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:09,131] {logging_mixin.py:95} INFO - [2019-06-23 12:09:09,131] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:09,144] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:09,163] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.044 seconds
+[2019-06-23 12:09:15,130] {jobs.py:398} INFO - Started process (PID=45021) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:15,145] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:15,146] {logging_mixin.py:95} INFO - [2019-06-23 12:09:15,146] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:15,158] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:15,177] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.047 seconds
+[2019-06-23 12:09:21,152] {jobs.py:398} INFO - Started process (PID=45024) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:21,163] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:21,163] {logging_mixin.py:95} INFO - [2019-06-23 12:09:21,163] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:21,173] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:21,192] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.040 seconds
+[2019-06-23 12:09:27,178] {jobs.py:398} INFO - Started process (PID=45027) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:27,189] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:27,191] {logging_mixin.py:95} INFO - [2019-06-23 12:09:27,190] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:27,200] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:27,218] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.040 seconds
+[2019-06-23 12:09:33,177] {jobs.py:398} INFO - Started process (PID=45030) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:33,192] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py for tasks to queue
+[2019-06-23 12:09:33,195] {logging_mixin.py:95} INFO - [2019-06-23 12:09:33,193] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:33,206] {jobs.py:1723} INFO - DAG(s) dict_keys(['first_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py
+[2019-06-23 12:09:33,225] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/first_workflow.py took 0.049 seconds

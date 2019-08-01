@@ -1,0 +1,403 @@
+[2019-06-23 12:03:03,868] {jobs.py:398} INFO - Started process (PID=44726) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:03,875] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:03:03,876] {logging_mixin.py:95} INFO - [2019-06-23 12:03:03,876] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:03,885] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:03,906] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:03:03,937] {jobs.py:1450} INFO - Created <DagRun fhku_scraping_workflow @ 2019-06-23T09:00:00+00:00: scheduled__2019-06-23T09:00:00+00:00, externally triggered: False>
+[2019-06-23 12:03:03,942] {jobs.py:921} INFO - Examining DAG run <DagRun fhku_scraping_workflow @ 2019-06-22 20:00:00+00:00: scheduled__2019-06-22T20:00:00+00:00, externally triggered: False>
+[2019-06-23 12:03:03,956] {jobs.py:921} INFO - Examining DAG run <DagRun fhku_scraping_workflow @ 2019-06-23 09:00:00+00:00: scheduled__2019-06-23T09:00:00+00:00, externally triggered: False>
+[2019-06-23 12:03:03,972] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:03:03,977] {jobs.py:1787} INFO - Creating / updating <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-22 20:00:00+00:00 [scheduled]> in ORM
+[2019-06-23 12:03:03,980] {jobs.py:1787} INFO - Creating / updating <TaskInstance: fhku_scraping_workflow.prepare_db_task 2019-06-23 09:00:00+00:00 [scheduled]> in ORM
+[2019-06-23 12:03:03,986] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.118 seconds
+[2019-06-23 12:03:41,972] {jobs.py:398} INFO - Started process (PID=44800) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:41,983] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:03:41,984] {logging_mixin.py:95} INFO - [2019-06-23 12:03:41,984] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:41,992] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:03:42,019] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:03:42,032] {jobs.py:921} INFO - Examining DAG run <DagRun fhku_scraping_workflow @ 2019-06-22 20:00:00+00:00: scheduled__2019-06-22T20:00:00+00:00, externally triggered: False>
+[2019-06-23 12:03:42,040] {logging_mixin.py:95} INFO - [2019-06-23 12:03:42,039] {__init__.py:4846} INFO - Marking run <DagRun fhku_scraping_workflow @ 2019-06-22 20:00:00+00:00: scheduled__2019-06-22T20:00:00+00:00, externally triggered: False> failed
+[2019-06-23 12:03:42,042] {jobs.py:921} INFO - Examining DAG run <DagRun fhku_scraping_workflow @ 2019-06-23 09:00:00+00:00: scheduled__2019-06-23T09:00:00+00:00, externally triggered: False>
+[2019-06-23 12:03:42,060] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:03:42,064] {jobs.py:1787} INFO - Creating / updating <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-23 09:00:00+00:00 [scheduled]> in ORM
+[2019-06-23 12:03:42,070] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.098 seconds
+[2019-06-23 12:04:18,196] {jobs.py:398} INFO - Started process (PID=44814) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:18,202] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:18,203] {logging_mixin.py:95} INFO - [2019-06-23 12:04:18,202] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:18,211] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:18,236] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:18,249] {jobs.py:921} INFO - Examining DAG run <DagRun fhku_scraping_workflow @ 2019-06-23 09:00:00+00:00: scheduled__2019-06-23T09:00:00+00:00, externally triggered: False>
+[2019-06-23 12:04:18,255] {logging_mixin.py:95} INFO - [2019-06-23 12:04:18,255] {__init__.py:4846} INFO - Marking run <DagRun fhku_scraping_workflow @ 2019-06-23 09:00:00+00:00: scheduled__2019-06-23T09:00:00+00:00, externally triggered: False> failed
+[2019-06-23 12:04:18,258] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:18,261] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.065 seconds
+[2019-06-23 12:04:24,207] {jobs.py:398} INFO - Started process (PID=44825) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:24,213] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:24,214] {logging_mixin.py:95} INFO - [2019-06-23 12:04:24,214] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:24,222] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:24,246] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:24,259] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:24,262] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.055 seconds
+[2019-06-23 12:04:30,229] {jobs.py:398} INFO - Started process (PID=44831) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:30,236] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:30,237] {logging_mixin.py:95} INFO - [2019-06-23 12:04:30,237] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:30,245] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:30,270] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:30,283] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:30,286] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:04:36,266] {jobs.py:398} INFO - Started process (PID=44835) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:36,273] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:36,274] {logging_mixin.py:95} INFO - [2019-06-23 12:04:36,274] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:36,281] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:36,302] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:36,315] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:36,319] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.052 seconds
+[2019-06-23 12:04:42,283] {jobs.py:398} INFO - Started process (PID=44838) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:42,290] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:42,291] {logging_mixin.py:95} INFO - [2019-06-23 12:04:42,290] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:42,298] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:42,323] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:42,341] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:42,344] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.062 seconds
+[2019-06-23 12:04:48,301] {jobs.py:398} INFO - Started process (PID=44842) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:48,309] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:48,310] {logging_mixin.py:95} INFO - [2019-06-23 12:04:48,309] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:48,316] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:48,337] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:48,350] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:48,353] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.052 seconds
+[2019-06-23 12:04:54,324] {jobs.py:398} INFO - Started process (PID=44845) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:54,332] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:04:54,333] {logging_mixin.py:95} INFO - [2019-06-23 12:04:54,333] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:54,339] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:04:54,365] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:04:54,377] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:04:54,380] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.056 seconds
+[2019-06-23 12:05:00,347] {jobs.py:398} INFO - Started process (PID=44848) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:00,353] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:00,354] {logging_mixin.py:95} INFO - [2019-06-23 12:05:00,354] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:00,361] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:00,382] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:00,395] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:00,399] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.052 seconds
+[2019-06-23 12:05:06,373] {jobs.py:398} INFO - Started process (PID=44852) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:06,379] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:06,380] {logging_mixin.py:95} INFO - [2019-06-23 12:05:06,380] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:06,387] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:06,412] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:06,424] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:06,427] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.054 seconds
+[2019-06-23 12:05:12,391] {jobs.py:398} INFO - Started process (PID=44855) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:12,397] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:12,398] {logging_mixin.py:95} INFO - [2019-06-23 12:05:12,398] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:12,405] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:12,428] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:12,440] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:12,443] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.053 seconds
+[2019-06-23 12:05:18,405] {jobs.py:398} INFO - Started process (PID=44858) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:18,412] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:18,412] {logging_mixin.py:95} INFO - [2019-06-23 12:05:18,412] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:18,421] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:18,442] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:18,456] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:18,459] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.054 seconds
+[2019-06-23 12:05:24,430] {jobs.py:398} INFO - Started process (PID=44861) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:24,437] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:24,438] {logging_mixin.py:95} INFO - [2019-06-23 12:05:24,438] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:24,446] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:24,467] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:24,484] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:24,488] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.058 seconds
+[2019-06-23 12:05:30,447] {jobs.py:398} INFO - Started process (PID=44864) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:30,453] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:30,454] {logging_mixin.py:95} INFO - [2019-06-23 12:05:30,454] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:30,462] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:30,484] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:30,497] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:30,500] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.053 seconds
+[2019-06-23 12:05:36,474] {jobs.py:398} INFO - Started process (PID=44867) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:36,480] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:36,481] {logging_mixin.py:95} INFO - [2019-06-23 12:05:36,481] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:36,489] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:36,517] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:36,529] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:36,532] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.058 seconds
+[2019-06-23 12:05:42,489] {jobs.py:398} INFO - Started process (PID=44871) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:42,496] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:42,496] {logging_mixin.py:95} INFO - [2019-06-23 12:05:42,496] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:42,504] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:42,527] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:42,539] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:42,543] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.054 seconds
+[2019-06-23 12:05:48,513] {jobs.py:398} INFO - Started process (PID=44875) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:48,524] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:48,525] {logging_mixin.py:95} INFO - [2019-06-23 12:05:48,524] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:48,531] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:48,553] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:48,565] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:48,568] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.055 seconds
+[2019-06-23 12:05:54,536] {jobs.py:398} INFO - Started process (PID=44878) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:54,544] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:05:54,545] {logging_mixin.py:95} INFO - [2019-06-23 12:05:54,545] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:54,552] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:05:54,574] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:05:54,587] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:05:54,591] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.055 seconds
+[2019-06-23 12:06:00,555] {jobs.py:398} INFO - Started process (PID=44881) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:00,562] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:00,563] {logging_mixin.py:95} INFO - [2019-06-23 12:06:00,562] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:00,569] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:00,596] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:00,608] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:00,611] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:06,589] {jobs.py:398} INFO - Started process (PID=44884) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:06,596] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:06,597] {logging_mixin.py:95} INFO - [2019-06-23 12:06:06,596] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:06,603] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:06,626] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:06,639] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:06,643] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.054 seconds
+[2019-06-23 12:06:12,606] {jobs.py:398} INFO - Started process (PID=44888) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:12,613] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:12,614] {logging_mixin.py:95} INFO - [2019-06-23 12:06:12,614] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:12,620] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:12,646] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:12,658] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:12,661] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.055 seconds
+[2019-06-23 12:06:18,631] {jobs.py:398} INFO - Started process (PID=44891) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:18,637] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:18,639] {logging_mixin.py:95} INFO - [2019-06-23 12:06:18,638] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:18,647] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:18,669] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:18,684] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:18,688] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:24,648] {jobs.py:398} INFO - Started process (PID=44894) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:24,655] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:24,656] {logging_mixin.py:95} INFO - [2019-06-23 12:06:24,656] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:24,664] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:24,686] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:24,702] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:24,705] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:30,669] {jobs.py:398} INFO - Started process (PID=44897) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:30,676] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:30,677] {logging_mixin.py:95} INFO - [2019-06-23 12:06:30,676] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:30,685] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:30,708] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:30,721] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:30,724] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.055 seconds
+[2019-06-23 12:06:36,701] {jobs.py:398} INFO - Started process (PID=44902) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:36,707] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:36,708] {logging_mixin.py:95} INFO - [2019-06-23 12:06:36,708] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:36,717] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:36,739] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:36,754] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:36,758] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:42,712] {jobs.py:398} INFO - Started process (PID=44906) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:42,723] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:42,724] {logging_mixin.py:95} INFO - [2019-06-23 12:06:42,723] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:42,731] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:42,753] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:42,766] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:42,769] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:48,731] {jobs.py:398} INFO - Started process (PID=44923) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:48,744] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:48,745] {logging_mixin.py:95} INFO - [2019-06-23 12:06:48,744] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:48,751] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:48,773] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:48,786] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:48,789] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.057 seconds
+[2019-06-23 12:06:54,743] {jobs.py:398} INFO - Started process (PID=44926) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:54,988] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:06:54,989] {logging_mixin.py:95} INFO - [2019-06-23 12:06:54,989] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:54,997] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:06:55,019] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:06:55,034] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:06:55,038] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.295 seconds
+[2019-06-23 12:07:00,768] {jobs.py:398} INFO - Started process (PID=44929) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:00,778] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:00,779] {logging_mixin.py:95} INFO - [2019-06-23 12:07:00,779] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:00,786] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:00,813] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:00,825] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:00,828] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.061 seconds
+[2019-06-23 12:07:06,789] {jobs.py:398} INFO - Started process (PID=44933) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:06,800] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:06,801] {logging_mixin.py:95} INFO - [2019-06-23 12:07:06,801] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:06,807] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:06,829] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:06,841] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:06,845] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.056 seconds
+[2019-06-23 12:07:12,805] {jobs.py:398} INFO - Started process (PID=44939) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:12,816] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:12,817] {logging_mixin.py:95} INFO - [2019-06-23 12:07:12,817] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:12,824] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:12,853] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:12,867] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:12,871] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.066 seconds
+[2019-06-23 12:07:18,819] {jobs.py:398} INFO - Started process (PID=44943) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:18,831] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:18,832] {logging_mixin.py:95} INFO - [2019-06-23 12:07:18,832] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:18,841] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:18,863] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:18,877] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:18,882] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.063 seconds
+[2019-06-23 12:07:24,821] {jobs.py:398} INFO - Started process (PID=44946) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:24,834] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:24,836] {logging_mixin.py:95} INFO - [2019-06-23 12:07:24,835] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:24,844] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:24,865] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:24,879] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:24,882] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.061 seconds
+[2019-06-23 12:07:30,834] {jobs.py:398} INFO - Started process (PID=44949) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:30,844] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:30,845] {logging_mixin.py:95} INFO - [2019-06-23 12:07:30,845] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:30,854] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:30,879] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:30,893] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:30,897] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.063 seconds
+[2019-06-23 12:07:36,850] {jobs.py:398} INFO - Started process (PID=44952) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:36,861] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:36,862] {logging_mixin.py:95} INFO - [2019-06-23 12:07:36,861] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:36,870] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:36,894] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:36,909] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:36,912] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.062 seconds
+[2019-06-23 12:07:42,856] {jobs.py:398} INFO - Started process (PID=44956) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:42,888] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:42,889] {logging_mixin.py:95} INFO - [2019-06-23 12:07:42,889] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:42,897] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:42,922] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:42,939] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:42,943] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.087 seconds
+[2019-06-23 12:07:48,868] {jobs.py:398} INFO - Started process (PID=44960) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:48,879] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:48,880] {logging_mixin.py:95} INFO - [2019-06-23 12:07:48,880] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:48,887] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:48,911] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:48,925] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:48,928] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.060 seconds
+[2019-06-23 12:07:54,890] {jobs.py:398} INFO - Started process (PID=44966) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:54,909] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:07:54,910] {logging_mixin.py:95} INFO - [2019-06-23 12:07:54,910] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:54,920] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:07:54,948] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:07:54,963] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:07:54,967] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.077 seconds
+[2019-06-23 12:08:00,916] {jobs.py:398} INFO - Started process (PID=44969) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:00,935] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:00,937] {logging_mixin.py:95} INFO - [2019-06-23 12:08:00,937] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:00,950] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:00,979] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:00,992] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:00,996] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.079 seconds
+[2019-06-23 12:08:06,937] {jobs.py:398} INFO - Started process (PID=44972) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:06,949] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:06,950] {logging_mixin.py:95} INFO - [2019-06-23 12:08:06,949] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:06,958] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:06,985] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:06,999] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:07,002] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.065 seconds
+[2019-06-23 12:08:12,954] {jobs.py:398} INFO - Started process (PID=44976) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:12,979] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:12,981] {logging_mixin.py:95} INFO - [2019-06-23 12:08:12,980] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:12,991] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:13,016] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:13,030] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:13,035] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.081 seconds
+[2019-06-23 12:08:18,971] {jobs.py:398} INFO - Started process (PID=44979) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:18,982] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:18,983] {logging_mixin.py:95} INFO - [2019-06-23 12:08:18,983] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:18,993] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:19,015] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:19,030] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:19,034] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.062 seconds
+[2019-06-23 12:08:24,995] {jobs.py:398} INFO - Started process (PID=44982) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:25,006] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:25,007] {logging_mixin.py:95} INFO - [2019-06-23 12:08:25,007] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:25,016] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:25,038] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:25,052] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:25,055] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.061 seconds
+[2019-06-23 12:08:31,019] {jobs.py:398} INFO - Started process (PID=44985) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:31,032] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:31,033] {logging_mixin.py:95} INFO - [2019-06-23 12:08:31,033] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:31,042] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:31,069] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:31,085] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:31,088] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.069 seconds
+[2019-06-23 12:08:37,037] {jobs.py:398} INFO - Started process (PID=44989) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:37,049] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:37,050] {logging_mixin.py:95} INFO - [2019-06-23 12:08:37,050] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:37,057] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:37,080] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:37,093] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:37,097] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.060 seconds
+[2019-06-23 12:08:43,045] {jobs.py:398} INFO - Started process (PID=44992) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:43,057] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:43,058] {logging_mixin.py:95} INFO - [2019-06-23 12:08:43,057] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:43,064] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:43,088] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:43,101] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:43,104] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.059 seconds
+[2019-06-23 12:08:49,062] {jobs.py:398} INFO - Started process (PID=44996) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:49,073] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:49,074] {logging_mixin.py:95} INFO - [2019-06-23 12:08:49,073] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:49,081] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:49,105] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:49,119] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:49,123] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.061 seconds
+[2019-06-23 12:08:55,079] {jobs.py:398} INFO - Started process (PID=44999) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:55,091] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:08:55,092] {logging_mixin.py:95} INFO - [2019-06-23 12:08:55,091] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:55,101] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:08:55,128] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:08:55,142] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:08:55,147] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.068 seconds
+[2019-06-23 12:09:01,094] {jobs.py:398} INFO - Started process (PID=45009) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:01,110] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:01,111] {logging_mixin.py:95} INFO - [2019-06-23 12:09:01,111] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:01,120] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:01,146] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:01,159] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:01,164] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.070 seconds
+[2019-06-23 12:09:07,123] {jobs.py:398} INFO - Started process (PID=45012) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:07,134] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:07,135] {logging_mixin.py:95} INFO - [2019-06-23 12:09:07,135] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:07,143] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:07,168] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:07,182] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:07,185] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.063 seconds
+[2019-06-23 12:09:13,126] {jobs.py:398} INFO - Started process (PID=45016) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:13,138] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:13,139] {logging_mixin.py:95} INFO - [2019-06-23 12:09:13,138] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:13,148] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:13,170] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:13,195] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:13,203] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.077 seconds
+[2019-06-23 12:09:19,145] {jobs.py:398} INFO - Started process (PID=45023) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:19,156] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:19,157] {logging_mixin.py:95} INFO - [2019-06-23 12:09:19,157] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:19,165] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:19,187] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:19,201] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:19,204] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.059 seconds
+[2019-06-23 12:09:25,163] {jobs.py:398} INFO - Started process (PID=45026) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:25,176] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:25,177] {logging_mixin.py:95} INFO - [2019-06-23 12:09:25,177] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:25,187] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:25,213] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:25,231] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:25,235] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.072 seconds
+[2019-06-23 12:09:31,172] {jobs.py:398} INFO - Started process (PID=45029) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:31,187] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:31,188] {logging_mixin.py:95} INFO - [2019-06-23 12:09:31,188] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:31,197] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:31,222] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:31,238] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:31,242] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.071 seconds
+[2019-06-23 12:09:37,196] {jobs.py:398} INFO - Started process (PID=45033) to work on /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:37,207] {jobs.py:1711} INFO - Processing file /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py for tasks to queue
+[2019-06-23 12:09:37,208] {logging_mixin.py:95} INFO - [2019-06-23 12:09:37,208] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:37,216] {jobs.py:1723} INFO - DAG(s) dict_keys(['fhku_scraping_workflow']) retrieved from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-23 12:09:37,241] {jobs.py:1446} INFO - Processing fhku_scraping_workflow
+[2019-06-23 12:09:37,254] {jobs.py:632} INFO - Skipping SLA check for <DAG: fhku_scraping_workflow> because no tasks in DAG have SLAs
+[2019-06-23 12:09:37,258] {jobs.py:406} INFO - Processing /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py took 0.062 seconds

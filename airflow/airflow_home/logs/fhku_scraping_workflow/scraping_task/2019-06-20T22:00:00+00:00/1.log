@@ -1,0 +1,105 @@
+[2019-06-22 11:34:25,384] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-20T22:00:00+00:00 [queued]>
+[2019-06-22 11:34:25,390] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-20T22:00:00+00:00 [queued]>
+[2019-06-22 11:34:25,390] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-22 11:34:25,390] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2019-06-22 11:34:25,390] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2019-06-22 11:34:25,396] {__init__.py:1374} INFO - Executing <Task(BashOperator): scraping_task> on 2019-06-20T22:00:00+00:00
+[2019-06-22 11:34:25,396] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'fhku_scraping_workflow', 'scraping_task', '2019-06-20T22:00:00+00:00', '--job_id', '70', '--raw', '-sd', 'DAGS_FOLDER/fhku_scraper.py', '--cfg_path', '/var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T/tmplxwpteei']
+[2019-06-22 11:34:25,892] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/configuration.py:590: DeprecationWarning: You have two airflow.cfg files: /Users/martin/airflow/airflow.cfg and /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/airflow.cfg, and you should remove the other file
+[2019-06-22 11:34:25,897] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   category=DeprecationWarning,
+[2019-06-22 11:34:26,128] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task [2019-06-22 11:34:26,128] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2019-06-22 11:34:26,358] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task [2019-06-22 11:34:26,358] {__init__.py:305} INFO - Filling up the DagBag from /Users/martin/dev1/fh/FH/MSc/03_sew/airflow/airflow_home/dags/fhku_scraper.py
+[2019-06-22 11:34:26,376] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task [2019-06-22 11:34:26,375] {cli.py:517} INFO - Running <TaskInstance: fhku_scraping_workflow.scraping_task 2019-06-20T22:00:00+00:00 [running]> on host macbook-wm.local
+[2019-06-22 11:34:26,389] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T
+[2019-06-22 11:34:26,389] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=fhku_scraping_workflow
+AIRFLOW_CTX_TASK_ID=scraping_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-06-20T22:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-06-20T22:00:00+00:00
+[2019-06-22 11:34:26,390] {bash_operator.py:104} INFO - Temporary script location: /var/folders/0s/70dxz1bd1gxf97w1p6wbclgw34w1qq/T/airflowtmpj17sf337/scraping_taskpouyrmle
+[2019-06-22 11:34:26,390] {bash_operator.py:114} INFO - Running command: python3 /Users/martin/dev1/fh/FH/MSc/03_sew/scrapping/main.py
+[2019-06-22 11:34:26,396] {bash_operator.py:123} INFO - Output:
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1236, in _execute_context
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO -     cursor, statement, parameters, context
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 536, in do_execute
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO -     cursor.execute(statement, parameters)
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO - sqlite3.OperationalError: no such table: event
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO - 
+[2019-06-22 11:34:27,032] {bash_operator.py:127} INFO - The above exception was the direct cause of the following exception:
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO - 
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO - Traceback (most recent call last):
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Users/martin/dev1/fh/FH/MSc/03_sew/scrapping/main.py", line 27, in <module>
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     session.commit()
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1023, in commit
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     self.transaction.commit()
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 487, in commit
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     self._prepare_impl()
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 466, in _prepare_impl
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     self.session.flush()
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2446, in flush
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     self._flush(objects)
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2584, in _flush
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     transaction.rollback(_capture_exception=True)
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 67, in __exit__
+[2019-06-22 11:34:27,033] {bash_operator.py:127} INFO -     compat.reraise(exc_type, exc_value, exc_tb)
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 277, in reraise
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     raise value
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2544, in _flush
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     flush_context.execute()
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 416, in execute
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     rec.execute(self)
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py", line 583, in execute
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     uow,
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     insert,
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py", line 1116, in _emit_insert_statements
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     statement, params
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 980, in execute
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     return meth(self, multiparams, params)
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 273, in _execute_on_connection
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     return connection._execute_clauseelement(self, multiparams, params)
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1099, in _execute_clauseelement
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -     distilled_params,
+[2019-06-22 11:34:27,034] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1240, in _execute_context
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     e, statement, parameters, cursor, context
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1458, in _handle_dbapi_exception
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     util.raise_from_cause(sqlalchemy_exception, exc_info)
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 296, in raise_from_cause
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     reraise(type(exception), exception, tb=exc_tb, cause=cause)
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 276, in reraise
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     raise value.with_traceback(tb)
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1236, in _execute_context
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     cursor, statement, parameters, context
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 536, in do_execute
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO -     cursor.execute(statement, parameters)
+[2019-06-22 11:34:27,035] {bash_operator.py:127} INFO - sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: event [SQL: 'INSERT INTO event (identifier, name, location, source, date, link, short) VALUES (?, ?, ?, ?, ?, ?, ?)'] [parameters: ('9a437767c20103bb3af1bd578ab1c1b4b20db598585e7e74af130be298f8314c', 'HomeComing 2019', 'FH Kufstein Tirol', 'FH Kufstein Homepage', '2019-06-14 00:00:00.000000', 'http://www.fh-kufstein.ac.at/ger/Veranstaltungen/HomeComing-2019', 'Sommerfest für Alumni der FH Kufstein Tirol')] (Background on this error at: http://sqlalche.me/e/e3q8)
+[2019-06-22 11:34:27,066] {bash_operator.py:131} INFO - Command exited with return code 1
+[2019-06-22 11:34:27,073] {__init__.py:1580} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 135, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2019-06-22 11:34:27,075] {__init__.py:1611} INFO - Marking task as FAILED.
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task Traceback (most recent call last):
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/bin/airflow", line 32, in <module>
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     args.func(args)
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     return f(*args, **kwargs)
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     _run(args, dag, ti)
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     pool=args.pool,
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2019-06-22 11:34:27,085] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     return func(*args, **kwargs)
+[2019-06-22 11:34:27,086] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2019-06-22 11:34:27,086] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     result = task_copy.execute(context=context)
+[2019-06-22 11:34:27,086] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task   File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 135, in execute
+[2019-06-22 11:34:27,086] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task     raise AirflowException("Bash command failed")
+[2019-06-22 11:34:27,086] {base_task_runner.py:101} INFO - Job 70: Subtask scraping_task airflow.exceptions.AirflowException: Bash command failed
+[2019-06-22 11:34:30,382] {logging_mixin.py:95} INFO - [2019-06-22 11:34:30,382] {jobs.py:2562} INFO - Task exited with return code 1
